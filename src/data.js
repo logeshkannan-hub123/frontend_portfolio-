@@ -1,0 +1,174 @@
+export const technicalSkills = [
+  { icon: "fab fa-html5", label: "HTML5" },
+  { icon: "fab fa-css3-alt", label: "CSS3" },
+  { icon: "fab fa-js", label: "JavaScript" },
+  { icon: "fab fa-react", label: "React.js" },
+  { icon: "fab fa-node-js", label: "Node.js" },
+  { icon: "fas fa-server", label: "Express.js" },
+  { icon: "fas fa-database", label: "MySQL" },
+  { icon: "fas fa-leaf", label: "MongoDB" },
+  { icon: "fab fa-bootstrap", label: "Bootstrap" },
+  { icon: "fab fa-git-alt", label: "Git & GitHub" },
+  { icon: "fas fa-paint-brush", label: "Canva" },
+  { icon: "fas fa-plug", label: "REST APIs" },
+  { icon: "fas fa-wand-magic-sparkles", label: "Claude AI" },
+];
+
+export const softSkills = [
+  { icon: "fas fa-users", label: "Team Collaboration" },
+  { icon: "fas fa-bolt", label: "Quick Learning & Adaptability" },
+  { icon: "fas fa-crown", label: "Leadership & Project Ownership" },
+  { icon: "fas fa-comments", label: "Effective Communication" },
+];
+
+export const education = [
+  {
+    year: "2023 — 2025",
+    degree: "MCA — Master of Computer Applications",
+    school: "Rathinam Technical Campus, Coimbatore",
+    grade: "Score: 72%",
+  },
+  {
+    year: "2020 — 2023",
+    degree: "B.Sc — Computer Science",
+    school: "Ayya Nadar Janaki Ammal College, Sivakasi",
+    grade: "Score: 72%",
+  },
+  {
+    year: "2018 — 2020",
+    degree: "HSC — Higher Secondary Certificate",
+    school: "Nadar Matriculation Higher Secondary School, Rajapalayam",
+    grade: "Score: 67%",
+  },
+  {
+    year: "2017 — 2018",
+    degree: "SSLC — Secondary School Leaving Certificate",
+    school:
+      "Sri Vaiyapuri Vidyalaya Matric Higher Secondary School, Sankarankovil",
+    grade: "Score: 73%",
+  },
+];
+
+export const projects = [
+  {
+    img: "/assets/projectimages/sample_website.png",
+    alt: "Service Company Website",
+    emoji: "🏢",
+    link: "https://logeshkannan-hub123.github.io/Simple-web-site/",
+    external: true,
+    tag: "Frontend",
+    name: "Service Company Website",
+    desc: "A professional multi-page service company website with modern layout and responsive design principles.",
+    techs: ["HTML", "CSS", "JavaScript"],
+  },
+  {
+    img: "/assets/projectimages/resturent.png",
+    alt: "Restaurant Menu Page",
+    emoji: "🍽️",
+    link: "https://logeshkannan-hub123.github.io/Restaurant-Menu-Page/",
+    external: true,
+    tag: "Frontend",
+    name: "Restaurant Menu Page",
+    desc: "An appealing restaurant menu page with organized food categories and a clean, attractive interface.",
+    techs: ["HTML", "CSS", "Bootstrap"],
+  },
+  {
+    img: "/assets/projectimages/Juiceshop.png",
+    alt: "Juice Shop",
+    emoji: "🥤",
+    link: "https://logeshkannan-hub123.github.io/juice_shop_website/",
+    external: true,
+    tag: "Frontend",
+    name: "Juice Shop Website",
+    desc: "A vibrant juice shop landing page with product showcase, responsive layout, and engaging visual design.",
+    techs: ["HTML", "CSS", "JavaScript"],
+  },
+  {
+    img: "/assets/projectimages/Construction_project.png",
+    alt: "Creative Design Agency",
+    emoji: "🏗️",
+    link: "/myproject/designagency/index.html",
+    external: false,
+    tag: "Frontend",
+    name: "Creative Design Agency",
+    desc: "A design agency showcase page featuring bold imagery, clean typography, and a compelling portfolio layout.",
+    techs: ["HTML", "CSS"],
+  },
+  {
+    img: "/assets/projectimages/Birthday_invitation.png",
+    alt: "Birthday Invitation",
+    emoji: "🎂",
+    link: "/myproject/birthday_invitation.html",
+    external: false,
+    tag: "Frontend",
+    name: "Birthday Invitation Card",
+    desc: "A beautiful digital birthday invitation card with festive design, animations, and a personalized message layout.",
+    techs: ["HTML", "CSS"],
+  },
+  {
+    img: "/assets/projectimages/MovieProject.png",
+    alt: "Movie Range",
+    emoji: "🎬",
+    link: "/myproject/movies.html",
+    external: false,
+    tag: "Frontend",
+    name: "Movie Range Page",
+    desc: "A movie listing page with a clean grid layout, featuring movie thumbnails, categories, and hover interactions.",
+    techs: ["HTML", "CSS", "JavaScript"],
+  },
+];
+
+export const certificates = [
+  {
+    img: "/assets/certificates/IMG_wpAPI.jpg",
+    alt: "WhatsApp API Chatbot Certificate",
+    icon: "fab fa-whatsapp",
+    title: "WhatsApp API Chatbot",
+    issuer: "Chatbot Development Certification",
+  },
+  {
+    img: "/assets/certificates/IMG_heartfull.jpg",
+    alt: "International Youth Seminar Certificate",
+    icon: "fas fa-globe",
+    title: "International Youth Seminar",
+    issuer: "Youth Leadership Program",
+  },
+  {
+    img: "/assets/certificates/India@75Quiz.jpg",
+    alt: "India @75 Quiz Contest Certificate",
+    icon: "fas fa-flag",
+    title: "India @75 Quiz Contest",
+    issuer: "National Level Quiz Participation",
+  },
+  {
+    img: "/assets/certificates/project_publish_certificate.png",
+    alt: "Project Published Certificate",
+    icon: "fas fa-trophy",
+    title: "Project Published Certificate",
+    issuer: "IOT project Recognition",
+  },
+  {
+    img: "/assets/certificates/travel_and_management.jpg",
+    alt: "Travel and Management Certificate",
+    icon: "fas fa-plane",
+    title: "Travel and Management",
+    issuer: "Travel & Management Course",
+  },
+  {
+    img: "/assets/certificates/YoungProfessional.jpg",
+    alt: "TCS Career Edge Certificate",
+    icon: "fas fa-star",
+    title: "TCS Career Edge",
+    issuer: "Young Professional Certification · TCS",
+  },
+];
+
+export const navLinks = [
+  { href: "#home", label: "Home" },
+  { href: "#about", label: "About" },
+  { href: "#skills", label: "Skills" },
+  { href: "#education", label: "Education" },
+  { href: "#projects", label: "Projects" },
+  { href: "#certificates", label: "Certificates" },
+  { href: "#contact", label: "Contact" },
+];
