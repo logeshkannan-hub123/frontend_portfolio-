@@ -27,13 +27,15 @@ export default function Projects() {
                   alt={project.alt}
                   onError={handleImgError}
                 />
-                <div className="project-img-placeholder" style={{ display: "none" }}>
+                <div
+                  className="project-img-placeholder"
+                  style={{ display: "none" }}
+                >
                   {project.emoji}
                 </div>
                 <div className="project-overlay">
                   <a
                     href={project.link}
-                    target={project.external ? "_blank" : undefined}
                     rel={project.external ? "noopener noreferrer" : undefined}
                   >
                     <i className="fas fa-external-link-alt"></i>{" "}
